@@ -11,6 +11,10 @@
 		F7FFE9592697D7C700CD8E1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FFE9582697D7C700CD8E1B /* ContentView.swift */; };
 		F7FFE95B2697D7C800CD8E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7FFE95A2697D7C800CD8E1B /* Assets.xcassets */; };
 		F7FFE95E2697D7C800CD8E1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7FFE95D2697D7C800CD8E1B /* Preview Assets.xcassets */; };
+		F7FFE96B2697D88400CD8E1B /* ItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FFE96A2697D88400CD8E1B /* ItemList.swift */; };
+		F7FFE96E2697D8EF00CD8E1B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FFE96D2697D8EF00CD8E1B /* DetailView.swift */; };
+		F7FFE9712697DD0600CD8E1B /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FFE9702697DD0600CD8E1B /* NetworkingManager.swift */; };
+		F7FFE9742697DD4B00CD8E1B /* Quake.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FFE9732697DD4B00CD8E1B /* Quake.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		F7FFE95A2697D7C800CD8E1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7FFE95D2697D7C800CD8E1B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F7FFE95F2697D7C800CD8E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7FFE96A2697D88400CD8E1B /* ItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemList.swift; sourceTree = "<group>"; };
+		F7FFE96D2697D8EF00CD8E1B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		F7FFE9702697DD0600CD8E1B /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		F7FFE9732697DD4B00CD8E1B /* Quake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quake.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				F7FFE95A2697D7C800CD8E1B /* Assets.xcassets */,
 				F7FFE95F2697D7C800CD8E1B /* Info.plist */,
 				F7FFE95C2697D7C800CD8E1B /* Preview Content */,
+				F7FFE96A2697D88400CD8E1B /* ItemList.swift */,
+				F7FFE96D2697D8EF00CD8E1B /* DetailView.swift */,
+				F7FFE9702697DD0600CD8E1B /* NetworkingManager.swift */,
+				F7FFE9732697DD4B00CD8E1B /* Quake.swift */,
 			);
 			path = "info Gempa";
 			sourceTree = "<group>";
@@ -139,6 +151,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7FFE9592697D7C700CD8E1B /* ContentView.swift in Sources */,
+				F7FFE9742697DD4B00CD8E1B /* Quake.swift in Sources */,
+				F7FFE96E2697D8EF00CD8E1B /* DetailView.swift in Sources */,
+				F7FFE96B2697D88400CD8E1B /* ItemList.swift in Sources */,
+				F7FFE9712697DD0600CD8E1B /* NetworkingManager.swift in Sources */,
 				F7FFE9572697D7C700CD8E1B /* info_GempaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

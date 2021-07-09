@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
-}
+    @ObservedObject var networkingManager  = NetworkingManager()
+             var body: some View {
+                 NavigationView{
+                     List(networkingManager.dataList.features,id: \.properties){ data in
+                         NavigationLink(destination: DetailView(data: data)){
+                             ItemList(data: data)
+                         }.navigationBarTitle("Info Gempa")
+                     }
+                 }
+             }
+            }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+        struct ContentView_Previews: PreviewProvider {
+            static var previews: some View {
+                ContentView()
+            }
+        }
